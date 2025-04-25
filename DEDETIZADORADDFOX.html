@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dedetizadora DDFOX</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f8ff;
+      color: #003366;
+    }
+
+    .promocao img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    header {
+      background: linear-gradient(90deg, #0056b3, #007BFF);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    header img {
+      max-width: 150px;
+      display: block;
+      margin: 0 auto 20px auto;
+    }
+
+    nav {
+      background-color: #003366;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #add8e6;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #0056b3;
+      border-bottom: 2px solid #99ccff;
+      padding-bottom: 10px;
+      margin-bottom: 30px;
+    }
+
+    .servico {
+      background-color: white;
+      padding: 25px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .servico:hover {
+      transform: scale(1.02);
+    }
+
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border: none;
+      border-radius: 50px;
+      padding: 15px 20px;
+      font-size: 16px;
+      text-decoration: none;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s;
+      z-index: 1000;
+    }
+
+    .whatsapp-button:hover {
+      background-color: #1ebe5d;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Imagem da promoção com link para WhatsApp -->
+  <div class="promocao">
+    <a href="https://wa.me/5561993129749?text=Olá,%20gostaria%20de%20aproveitar%20a%20promoção%20de%20dedetização!" target="_blank">
+      <img src="c9491c6f-ae87-4c9c-be66-e483458af03b.png" alt="Promoção Dedetização">
+    </a>
+  </div>
+
+  <header>
+    <img src="WhatsApp Image 2025-04-22 at 19.36.21.jpeg" alt="Logo Dedetizadora DDFOX">
+    <h1>Dedetizadora DDFOX</h1>
+    <p>Protegendo seu lar e sua empresa de pragas urbanas</p>
+  </header>
+
+  <nav>
+    <a href="#servicos">Serviços</a>
+    <a href="#sobre">Sobre Nós</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="servicos">
+    <h2>Nossos Serviços</h2>
+    <div class="servico">
+      <h3>Controle de Baratas</h3>
+      <p>Eliminação eficaz de baratas com produtos seguros e certificados.</p>
+    </div>
+    <div class="servico">
+      <h3>Desratização</h3>
+      <p>Controle completo de roedores em ambientes comerciais e residenciais.</p>
+    </div>
+    <div class="servico">
+      <h3>Dedetização Geral</h3>
+      <p>Soluções para cupins, formigas, aranhas e outras pragas.</p>
+    </div>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Com mais de 10 anos de experiência, a Dedetizadora DDFOX oferece serviços de qualidade, com equipe treinada e equipamentos modernos. Nosso compromisso é com sua segurança e tranquilidade.</p>
+  </section>
+
+  <section id="contato">
+    <h2>Fale Conosco</h2>
+    <p>Email: contato@ddfoxdedetizacao.com.br</p>
+    <p>Telefone: (61) 99312-9749</p>
+    <p>Atendimento de segunda a sábado, das 8h às 18h</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Dedetizadora DDFOX. Todos os direitos reservados.</p>
+  </footer>
+
+  <a class="whatsapp-button" href="https://wa.me/5561993129749?text=Olá,%20gostaria%20de%20aproveitar%20a%20promoção%20de%20dedetização!" target="_blank">
+    Fale no WhatsApp
+  </a>
+
+</body>
+</html>
